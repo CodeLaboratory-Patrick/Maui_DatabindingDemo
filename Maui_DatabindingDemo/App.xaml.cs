@@ -1,4 +1,6 @@
-﻿namespace Maui_DatabindingDemo
+﻿using Maui_DatabindingDemo.Pages;
+
+namespace Maui_DatabindingDemo
 {
     public partial class App : Application
     {
@@ -6,7 +8,7 @@
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            MainPage = new SliderPage();
         }
     }
 }
