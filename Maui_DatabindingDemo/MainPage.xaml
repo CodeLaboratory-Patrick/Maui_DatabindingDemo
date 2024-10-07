@@ -1,7 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:Models="clr-namespace:Maui_DatabindingDemo.Models"
              x:Class="Maui_DatabindingDemo.MainPage">
+
+    <ContentPage.Resources>
+        <Models:Person x:Key="person"
+                       Name="Peter"
+                       Address="Some address"
+                       Phone="XXXX" />
+    </ContentPage.Resources>
 
     <ScrollView>
         <VerticalStackLayout
@@ -13,7 +21,7 @@
                 x:Name="txtName"
                 FontSize="50"
                 HorizontalOptions="Center"
-                Text="Emma"
+                Text="{Binding Name, Source={StaticResource person}}"
                 VerticalOptions="Center" />
 
             <Button

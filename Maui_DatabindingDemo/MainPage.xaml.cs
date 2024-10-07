@@ -18,16 +18,17 @@ namespace Maui_DatabindingDemo
                 Address = "X Address"
             };
 
+
+
+            //Binding personBinding = new Binding();
+
+            //personBinding.Source = person;
+            //personBinding.Path = "Name";
+
+            //txtName.SetBinding(Label.TextProperty, personBinding);
             // Remember, I need to create a binding specifying the source of information and finally establish the
             // source to the will property which will take the data from the information source, which in this case
             // is a property called name.
-
-            Binding personBinding = new Binding();
-
-            personBinding.Source = person;
-            personBinding.Path = "Name";
-
-            txtName.SetBinding(Label.TextProperty, personBinding);
         }
     }
 
