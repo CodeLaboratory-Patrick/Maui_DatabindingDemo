@@ -8,7 +8,7 @@ namespace Maui_DatabindingDemo
         {
             InitializeComponent();
 
-            MainPage = new BindingModes();
+            MainPage = new MainPage();
         }
     }
 }

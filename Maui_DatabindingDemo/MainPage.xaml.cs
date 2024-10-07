@@ -2,16 +2,14 @@
 
 namespace Maui_DatabindingDemo
 {
+    Person person = new Person();
     public partial class MainPage : ContentPage
     {
         public MainPage()
         {
             InitializeComponent();
-        }
 
-        private void OnCounterClicked(object sender, EventArgs e)
-        {
-            var person = new Person
+            person = new Person
             {
                 Name = "John",
                 Phone = "1234567",
@@ -19,6 +17,20 @@ namespace Maui_DatabindingDemo
             };
 
             BindingContext = person;
+        }
+
+        private void OnCounterClicked(object sender, EventArgs e)
+        {
+            person.Name = "Peter";
+            person.Phone = "00000";
+            person.Address = "New Address";
+
+            //person = new Person
+            //{
+            //    Name = "Peter",
+            //    Phone = "00000",
+            //    Address = "New Address"
+            //};
 
             //txtName.BindingContext = person;
             //txtName.SetBinding(Label.TextProperty, "Name");
