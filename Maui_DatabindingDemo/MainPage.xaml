@@ -17,11 +17,29 @@
             Spacing="25"
             VerticalOptions="Center">
 
-            <Label
+            <!--<Label
                 x:Name="txtName"
                 FontSize="50"
                 HorizontalOptions="Center"
                 Text="{Binding Name, Source={StaticResource person}}"
+                VerticalOptions="Center" />-->
+
+            <Label
+                FontSize="50"
+                HorizontalOptions="Center"
+                Text="{Binding Name}"
+                VerticalOptions="Center" />
+
+            <Label
+                FontSize="50"
+                HorizontalOptions="Center"
+                Text="{Binding Phone}"
+                VerticalOptions="Center" />
+
+            <Label
+                FontSize="50"
+                HorizontalOptions="Center"
+                Text="{Binding Address}"
                 VerticalOptions="Center" />
 
             <Button

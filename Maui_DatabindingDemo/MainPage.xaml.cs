@@ -18,7 +18,10 @@ namespace Maui_DatabindingDemo
                 Address = "X Address"
             };
 
+            BindingContext = person;
 
+            //txtName.BindingContext = person;
+            //txtName.SetBinding(Label.TextProperty, "Name");
 
             //Binding personBinding = new Binding();
 
