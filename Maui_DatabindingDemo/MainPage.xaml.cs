@@ -1,9 +1,9 @@
-﻿namespace Maui_DatabindingDemo
+﻿using Maui_DatabindingDemo.Models;
+
+namespace Maui_DatabindingDemo
 {
     public partial class MainPage : ContentPage
     {
-        int count = 0;
-
         public MainPage()
         {
             InitializeComponent();
@@ -11,14 +11,23 @@
 
         private void OnCounterClicked(object sender, EventArgs e)
         {
-            count++;
+            var person = new Person
+            {
+                Name = "John",
+                Phone = "1234567",
+                Address = "X Address"
+            };
 
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
-            else
-                CounterBtn.Text = $"Clicked {count} times";
+            // Remember, I need to create a binding specifying the source of information and finally establish the
+            // source to the will property which will take the data from the information source, which in this case
+            // is a property called name.
 
-            SemanticScreenReader.Announce(CounterBtn.Text);
+            Binding personBinding = new Binding();
+
+            personBinding.Source = person;
+            personBinding.Path = "Name";
+
+            txtName.SetBinding(Label.TextProperty, personBinding);
         }
     }
 
