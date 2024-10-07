@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maui_DatabindingDemo", "Maui_DatabindingDemo\Maui_DatabindingDemo.csproj", "{9163A636-B392-4F86-BBBF-3F7F2C7838AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9163A636-B392-4F86-BBBF-3F7F2C7838AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9163A636-B392-4F86-BBBF-3F7F2C7838AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9163A636-B392-4F86-BBBF-3F7F2C7838AE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9163A636-B392-4F86-BBBF-3F7F2C7838AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9163A636-B392-4F86-BBBF-3F7F2C7838AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9163A636-B392-4F86-BBBF-3F7F2C7838AE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ADDE5E7B-8013-4AD1-9C8B-8CA67D6BBAB6}
+	EndGlobalSection
+EndGlobal
