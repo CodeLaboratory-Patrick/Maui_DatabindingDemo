@@ -187,7 +187,7 @@ public class UserViewModel : INotifyPropertyChanged
 ## Reference Sites
 - [.NET MAUI Documentation](https://learn.microsoft.com/en-us/dotnet/maui/)
 - [Microsoft Learn - Data Binding in MAUI](https://learn.microsoft.com/en-us/dotnet/maui/fundamentals/data-binding)
-- [MVVM Pattern in MAUI](https://learn.microsoft.com/en-us/dotnet/maui/architecture/mvvm)
+- [MVVM Pattern in MAUI](https://learn.microsoft.com/en-us/shows/dotnet-maui-for-beginners/dotnet-maui-data-binding-with-mvvm-xaml-5-of-8-dotnet-maui-for-beginners)
 
 # Creating Data Bindings in XAML in .NET MAUI
 
@@ -331,7 +331,7 @@ namespace MauiAppDemo
 ## Reference Sites
 - [.NET MAUI Documentation](https://learn.microsoft.com/en-us/dotnet/maui/)
 - [Microsoft Learn - Data Binding in MAUI](https://learn.microsoft.com/en-us/dotnet/maui/fundamentals/data-binding)
-- [MVVM Pattern in MAUI](https://learn.microsoft.com/en-us/dotnet/maui/architecture/mvvm)
+- [MVVM Pattern in MAUI](https://learn.microsoft.com/en-us/dotnet/maui/xaml/fundamentals/mvvm?view=net-maui-8.0)
 
 # Creating Data Bindings in XAML in .NET MAUI
 
@@ -441,7 +441,7 @@ Consider a scenario where you have an application that displays user profile inf
 
 - [.NET MAUI Documentation](https://learn.microsoft.com/en-us/dotnet/maui/)
 - [Microsoft Learn - Data Binding in MAUI](https://learn.microsoft.com/en-us/dotnet/maui/fundamentals/data-binding)
-- [MVVM Pattern in MAUI](https://learn.microsoft.com/en-us/dotnet/maui/architecture/mvvm) 
+- [MVVM Pattern in MAUI]([https://learn.microsoft.com/en-us/dotnet/maui/architecture/mvvm](https://learn.microsoft.com/en-us/dotnet/architecture/maui/mvvm)) 
 
 # Binding Between Controls in .NET MAUI
 
@@ -559,7 +559,7 @@ public partial class SliderPage : ContentPage
 
 - [.NET MAUI Documentation](https://learn.microsoft.com/en-us/dotnet/maui/)
 - [Microsoft Learn - Data Binding in MAUI](https://learn.microsoft.com/en-us/dotnet/maui/fundamentals/data-binding)
-- [MVVM Pattern in MAUI](https://learn.microsoft.com/en-us/dotnet/maui/architecture/mvvm)
+- [MVVM Pattern in MAUI]([https://learn.microsoft.com/en-us/dotnet/maui/architecture/mvvm](https://learn.microsoft.com/en-us/dotnet/architecture/maui/mvvm))
 
 # Binding Modes in .NET MAUI
 
@@ -655,7 +655,7 @@ In .NET MAUI, **Binding Modes** determine how data flows between the source (typ
 ## Reference Sites
 - [.NET MAUI Documentation](https://learn.microsoft.com/en-us/dotnet/maui/)
 - [Microsoft Learn - Data Binding in MAUI](https://learn.microsoft.com/en-us/dotnet/maui/fundamentals/data-binding)
-- [Binding Modes in .NET](https://learn.microsoft.com/en-us/dotnet/desktop/wpf/data/binding-modes)
+- [Binding Modes in .NET](https://learn.microsoft.com/en-us/dotnet/maui/fundamentals/data-binding/binding-mode?view=net-maui-8.0)
 
 # What is the INotifyPropertyChanged Interface?
 
@@ -748,4 +748,3 @@ For example, if a user changes their **name** in an **Entry** field, using **Two
 ## Reference Sites
 - [.NET MAUI Documentation](https://learn.microsoft.com/en-us/dotnet/maui/)
 - [Microsoft Learn - INotifyPropertyChanged Interface](https://learn.microsoft.com/en-us/dotnet/api/system.componentmodel.inotifypropertychanged)
-- [MVVM Pattern in MAUI](https://learn.microsoft.com/en-us/dotnet/maui/architecture/mvvm)
